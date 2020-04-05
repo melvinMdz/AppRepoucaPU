@@ -65,6 +65,11 @@ public class AuthenticationProviderRepUca implements AuthenticationProvider {
 
                             System.out.println("Bienvenido INVESTIGADOR INVITADO");
                             break;
+                        case "40":
+                            System.out.println("CASO 4");
+
+                            System.out.println("USUARIO EXTRICTAMENTE DE CONSULTA");
+                            break;
 
                         default:
                             System.out.println("OTRO");
