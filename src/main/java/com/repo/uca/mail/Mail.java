@@ -11,6 +11,13 @@ package com.repo.uca.mail;
 public class Mail 
 {
     
+    /*
+    Estas son las credenciales
+    usuario: usuariomelvin 
+    password: Mmdz127:v
+
+    */
+
     private String from;
     private String psswd;
     private String to;
@@ -27,6 +34,7 @@ public class Mail
         this.asunto = asunto;
         this.mensaje = mensaje;
     }
+
 
     public String getFrom() {
         return from;
