@@ -26,6 +26,11 @@ public class sendEmail {
             propiedades.put("mail.smtp.ssl.trust", "smtp.mail.yahoo.com");
             propiedades.put("mail.smtp.host", "smtp.mail.yahoo.com");
         }
+        else if (dominio[1].equals("uca.edu")) {
+            propiedades.put("mail.smtp.ssl.trust", "smtp.mail.edu.edu");
+            propiedades.put("mail.smtp.host", "smtp.mail.uca.edu");
+        }
+
 
         propiedades.put("mail.smtp.auth", "true");
         propiedades.put("mail.debug", "true");
