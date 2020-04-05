@@ -15,6 +15,7 @@ public class Mail
     Estas son las credenciales
     usuario: usuariomelvin 
     password: Mmdz127:v
+    direccion IP: 10.12.10.20
 
     */
 
