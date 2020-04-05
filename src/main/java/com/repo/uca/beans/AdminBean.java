@@ -24,7 +24,7 @@ import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+/* melvin edgardo mendez hernandez*/
 @ManagedBean(name = "administracionBean")
 @SessionScoped
 //@ViewScoped
