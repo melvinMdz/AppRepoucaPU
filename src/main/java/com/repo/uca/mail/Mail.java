@@ -16,6 +16,8 @@ public class Mail
     private String to;
     private String asunto;
     private String mensaje;
+    private String carga;
+    private String archivo;
 
     public Mail(String from, String psswd, String to, String asunto, String mensaje) 
     {
@@ -64,5 +66,23 @@ public class Mail
 
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
-    }   
+    }
+
+    public String getCarga() {
+        return carga;
+    }
+
+    public void setCarga(String carga) {
+        this.carga = carga;
+    }
+    public String getArchivo() {
+        return archivo;
+    }
+
+    public void setArchivo(String archivo) {
+        this.archivo = archivo;
+    }
+
+
+
 }
