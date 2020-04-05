@@ -65,6 +65,11 @@ public class CatalogosBean implements Serializable
     @Autowired
     MunicipioLugarRepository munilugarrepo;
     
+    @Autowired
+    MunicipioLugarRepository paisnacimiento;
+
+    @Autowired
+    MunicipioLugarRepository codigopostal;
     
     @PostConstruct
     public void load()
@@ -193,7 +198,12 @@ public class CatalogosBean implements Serializable
         this.listdisciplina = listdisciplina;
     }
 
-    
+    public List<PaisNacimiento> getListPaisNacimiento() {
+        return PaisNacimiento;
+    }
+    public List<CodigoPostal> getListCodigoPostal() {
+        return CodigoPostal;
+    }
 
     
     public CatalogosBean(){
