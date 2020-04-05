@@ -16,6 +16,9 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) 
     {
         resources.add(com.repo.uca.rs.UsuarioRS.class);
+        resources.add("/WebApp/Resources/reportes/");
+        resources.add("/WebApp/Resources/binariosjasper/");
+        resources.add("/WebApp/Resources/llavesFTP/");
         /*resources.add(com.jap.catalogo.service.CAlmacenService.class);
         resources.add(com.jap.proceso.service.PComprasService.class);
         resources.add(com.jap.seguridad.service.SUsuarioService.class);*/
